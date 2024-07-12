@@ -2,7 +2,6 @@
 
 This lab outlines using Responder to capture an NTLM hash over the network and then cracking the captured hash with Hashcat.
 
-## Table of Contents
 
 ![ResponderLab2.PNG](Images/ResponderLab2.PNG)
 
