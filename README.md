@@ -4,4 +4,4 @@ This lab outlines using Responder to capture an NTLM hash over the network and t
 
 ## Table of Contents
 
-![ResponderLab1.PNG](Images/ResponderLab1.PNG
+![ResponderLab1.PNG](Images/ResponderLab1.PNG)
