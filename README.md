@@ -1,6 +1,6 @@
 # Network-Hash-Capture-and-Cracking-with-Responder-and-Hashcat
 
-This lab outlines using Responder to capture an NTLMv2 hash from a Windows 10 host over the network and then cracking the captured hash with Hashcat to expose the password. This lab was performed in a segmented LAN environment for testing purposes. 
+This lab outlines the process of using Responder to capture an NTLMv2 hash from a Windows 10 host over the network and then cracking the captured hash with Hashcat to expose the password. This lab was conducted in a segmented LAN environment for testing purposes.
 
 
 ![ResponderLab2.PNG](Images/ResponderLab2.PNG)
