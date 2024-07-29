@@ -7,6 +7,8 @@ This lab outlines the process of using Responder to capture an NTLMv2 hash from 
 
 ![ResponderLab3.PNG](Images/ResponderLab3.PNG)
 
+The responder tool listens for events happening over the network through the eth0 interface. 
+
 ![ResponderLab6.PNG](Images/ResponderLab6.PNG)
 
 ![ResponderLab7.PNG](Images/ResponderLab7.PNG)
