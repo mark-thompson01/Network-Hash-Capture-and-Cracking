@@ -7,7 +7,7 @@ This lab outlines the process of using Responder to capture an NTLMv2 hash from 
 
 ![ResponderLab3.PNG](Images/ResponderLab3.PNG)
 
-The Responder tool listens for network events through the eth0 interface. While it is running, I will capture the NTLMv2 hash of the Windows 10 target by attempting to authenticate to a nonexistent server named server01.
+The Responder tool listens for network events through the eth0 interface. While it is running, I will capture the NTLMv2 hash of the Windows 10 target by attempting to authenticate to a nonexistent server named server01. This is performed locally on the target system within the local network.
 
 ![ResponderLabAdd1.PNG](Images/ResponderLabAdd1.PNG)
 
