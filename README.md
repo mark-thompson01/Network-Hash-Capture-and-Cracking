@@ -17,6 +17,8 @@ The Responder tool listens for network events through the eth0 interface. While 
 
 ![ResponderLab6.PNG](Images/ResponderLab6.PNG)
 
+Here we have the captured NTLMv2 hash, which the Responder tool tricked the target system into sending over the network. By having the target host attempt to authenticate to a nonexistent server, Responder captured the NTLMv2 hash by poisoning the response to a broadcast query. From here, we can copy and paste the hash into a .txt file and run a wordlist against it using Hashcat to attempt to crack the hashed password.
+
 ![ResponderLab7.PNG](Images/ResponderLab7.PNG)
 
 ![ResponderLab8.PNG](Images/ResponderLab8.PNG)
