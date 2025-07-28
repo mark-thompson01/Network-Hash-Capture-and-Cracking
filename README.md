@@ -3,6 +3,18 @@
 This repository is based on the Network Hash Capture and Cracking with Responder and Hashcat on my GitHub webpages portfolio. This lab demonstration outlines the process of using Responder to capture an NTLMv2 hash from a Windows 10 host over the network and then cracking the captured hash with Hashcat to expose the password. This lab was conducted in a segmented LAN environment for testing purposes. 
 
 
+---
+
+
+## Lab Setup
+The lab environment consists of the following setup:
+
+> **Segmented Broadcast Domain:** For this lab setup, I setup a broadcast domain to complete isolate a Kali VM and standard Windows 10 PC.
+> **Kali Linux VM:** Used for running Responder to capture the NTLMv2 hash and using Hashcat to crack the hash.
+> **Windows 10 Desktop:** Used as the victim machine to capture the NTLMv2 hash. 
+
+The environment was set up with isolation using network segmentation techniques. Never run these tools without obtaining authorization from the network or domain administrator.
+
 
 
 
