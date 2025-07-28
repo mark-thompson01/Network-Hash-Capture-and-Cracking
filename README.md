@@ -27,9 +27,9 @@ Through this project, I have learned how:
      - mDNS (Multicast DNS)
   - Responder listens for these requests and pretends to be the host being requested (spoofs the response).
     - Believing it has found the correct server, the victim's machine tries to authenticate automatically using NTLM (Windows tries single sign-on).
-    - The victim machine sends an NTLM negotiation message to Responder, resulting in the NTLMv2 hash value of the victim to be retrievd by Responder. 
-  
-- 
+    - The victim machine sends an NTLM negotiation message to Responder, resulting in the NTLMv2 hash value of the victim to be retrievd by Responder.
+- Once the password hash is retrieved, you can then run hashcat to try and crack it and expose the password.
+   
 
 ---
 
