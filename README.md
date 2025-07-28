@@ -25,6 +25,20 @@ This repository is based on the Network Hash Capture and Cracking with Responder
 ---
 
 
+## 🔁 How to Recreate This Lab
+- Download and install Oracle VirtualBox
+- Download, install, and setup a Kali Linux VM
+- Setup a Windows VM segmented or Windows 10 host on a segmented network
+- Run Responder
+- Try to connect to a server name that doesn't exist on the Windows host
+- Capture the NTLMv2 pasword hash
+- Save the hash value to a text file
+- Try to crack the hash file using Hashcat to crack the password
+
+
+---
+
+
 ## What I've Learned
 Through this project, I have learned how:
 - NTLMv2 (NT LAN Manager version 2) is a challenge-response network authentication protocol between a client and a server, used primarily in Windows environments.
