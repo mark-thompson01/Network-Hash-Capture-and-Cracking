@@ -9,7 +9,7 @@ This repository is based on the Network Hash Capture and Cracking with Responder
 ## Lab Setup
 The lab environment consists of the following setup:
 
-> **Segmented Broadcast Domain:** I setup a broadcast domain to isolate the Kali VM and Windows 10 PC.
+> **Segmented Broadcast Domain:** I setup a broadcast domain to isolate the Kali VM and Windows 10 Desktop.
 > **Kali Linux VM:** Used for running Responder to capture the NTLMv2 hash and using Hashcat to crack the hash.
 > **Windows 10 Desktop:** Used as the victim machine to capture the NTLMv2 hash. 
 
