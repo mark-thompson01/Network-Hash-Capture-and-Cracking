@@ -13,6 +13,18 @@ This repository is based on the Network Hash Capture and Cracking with Responder
 ---
 
 
+## 🛠️ Tech Used
+- Segmented broadcast domain
+- Oracle VirtualBox
+- Kali Linux VM
+- Windows 10 PC
+- Responder
+- Hashcat
+
+
+---
+
+
 ## What I've Learned
 Through this project, I have learned how:
 - NTLMv2 (NT LAN Manager version 2) is a challenge-response network authentication protocol between a client and a server, used primarily in Windows environments.
