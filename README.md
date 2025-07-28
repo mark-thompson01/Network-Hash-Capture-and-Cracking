@@ -1,6 +1,6 @@
 # Network-Hash-Capture-and-Cracking
 
-This repository is based on Network Hash Capture and Cracking with Responder and Hashcat on my GitHub webpages portfolio. This lab demonstration outlines the process of using Responder to capture an NTLMv2 hash from a Windows 10 host over the network and then cracking the captured hash with Hashcat to expose the password. This lab was conducted in a segmented LAN environment for testing purposes. 
+This repository is based on the Network Hash Capture and Cracking with Responder and Hashcat on my GitHub webpages portfolio. This lab demonstration outlines the process of using Responder to capture an NTLMv2 hash from a Windows 10 host over the network and then cracking the captured hash with Hashcat to expose the password. This lab was conducted in a segmented LAN environment for testing purposes. 
 
 
 
